@@ -9,6 +9,7 @@ services:
     ports:
       - "3000:3000"
       - "443:443"
-  login:
-  
-  
+    networks:
+      - fiware
+  networks:
+    fiware:
